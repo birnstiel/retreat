@@ -1,8 +1,6 @@
 // Configuration
-const AGENDA_MARKDOWN_URL =
-  "https://raw.githubusercontent.com/birnstiel/retreat/main/agenda.md";
-const PARTICIPANTS_MARKDOWN_URL =
-  "https://raw.githubusercontent.com/birnstiel/retreat/main/participants.md";
+const AGENDA_MARKDOWN_URL = "agenda.md";
+const PARTICIPANTS_MARKDOWN_URL = "participants.md";
 
 // Initialize on page load
 document.addEventListener("DOMContentLoaded", () => {
@@ -28,17 +26,17 @@ async function loadAgenda() {
     const htmlContent = marked.parse(markdown);
     agendaContent.innerHTML = htmlContent;
 
-    agendaSourceLink.href = AGENDA_MARKDOWN_URL.replace(
-      "raw.githubusercontent.com",
-      "github.com",
-    ).replace("/main/", "/blob/main/");
+    // Update link to point to local file
+    if (agendaSourceLink) {
+      agendaSourceLink.href = AGENDA_MARKDOWN_URL;
+    }
   } catch (error) {
     console.error("Error loading agenda:", error);
     agendaContent.innerHTML = `
             <div style="background-color: #fee2e2; border-left: 4px solid #dc2626; padding: 20px; border-radius: 8px;">
                 <p style="color: #991b1b; margin: 0;">
                     <strong>⚠️ Error loading agenda</strong><br>
-                    Please make sure the GitHub URL in script.js is configured correctly.
+                    Error: ${error.message}
                     <br><br>
                     Current URL: <code>${AGENDA_MARKDOWN_URL}</code>
                 </p>
@@ -47,7 +45,7 @@ async function loadAgenda() {
   }
 }
 
-// Load and render Markdown participants as alphabetical list
+// Load and render Markdown participants
 async function loadParticipants() {
   const participantsContent = document.getElementById("participants-content");
 
@@ -59,34 +57,15 @@ async function loadParticipants() {
     }
 
     const markdown = await response.text();
-
-    // Parse markdown to extract participants (lines starting with "- ")
-    const lines = markdown
-      .split("\n")
-      .filter((line) => line.trim().startsWith("- "));
-    const participants = lines
-      .map((line) => line.replace("- ", "").trim())
-      .sort();
-
-    if (participants.length === 0) {
-      throw new Error("No participants found");
-    }
-
-    // Create alphabetical list
-    const html = `
-            <ul class="participants-alphabetical">
-                ${participants.map((p) => `<li>${escapeHtml(p)}</li>`).join("")}
-            </ul>
-        `;
-
-    participantsContent.innerHTML = html;
+    const htmlContent = marked.parse(markdown);
+    participantsContent.innerHTML = htmlContent;
   } catch (error) {
     console.error("Error loading participants:", error);
     participantsContent.innerHTML = `
             <div style="background-color: #fee2e2; border-left: 4px solid #dc2626; padding: 20px; border-radius: 8px;">
                 <p style="color: #991b1b; margin: 0;">
                     <strong>⚠️ Error loading participants</strong><br>
-                    Please make sure the GitHub URL in script.js is correct and participants.md exists.
+                    Please make sure participants.md exists in the same directory.
                     <br><br>
                     Current URL: <code>${PARTICIPANTS_MARKDOWN_URL}</code>
                 </p>

@@ -7,11 +7,11 @@
 3. Select **Pages** from the left menu
 4. Under "Source," select **main** branch and **/ (root)** directory
 5. Click **Save**
-6. Your site will be live at: `https://YOUR-USERNAME.github.io/retreat`
+6. Your site will be live at: `https://birnstiel.github.io/retreat`
 
 ### 2. Update the Agenda URL
 
-Edit `script.js` and replace `YOUR-USERNAME` with your actual GitHub username in:
+Edit `script.js` and replace `birnstiel` with your actual GitHub username in:
 
 ```javascript
 const AGENDA_MARKDOWN_URL = 'https://raw.githubusercontent.com/birnstiel/retreat/main/agenda.md';

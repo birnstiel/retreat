@@ -7,7 +7,7 @@
 3. Select **Pages** from the left menu
 4. Under "Source," select **main** branch and **/ (root)** directory
 5. Click **Save**
-6. Your site will be live at: `https://birnstiel.github.io/retreat`
+6. Your site will be live at: <https://birnstiel.github.io/retreat>
 
 ### 2. Update the Agenda URL
 
@@ -82,6 +82,6 @@ Edit the card content in `index.html`:
 
 ## 📱 Important URLs
 
-- **Website**: `https://birnstiel.github.io/retreat`
-- **Repository**: `https://github.com/birnstiel/retreat`
-- **Raw Agenda**: `https://raw.githubusercontent.com/birnstiel/retreat/main/agenda.md`
+- **Website**: <https://birnstiel.github.io/retreat>
+- **Repository**: <https://github.com/birnstiel/retreat>
+- **Raw Agenda**: <https://raw.githubusercontent.com/birnstiel/retreat/main/agenda.md>

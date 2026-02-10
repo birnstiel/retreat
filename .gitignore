@@ -1,0 +1,23 @@
+# .gitignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (falls später node_modules verwendet wird)
+node_modules/
+package-lock.json
+
+# Build outputs (falls später genutzt)
+dist/
+build/
+
+# Environment variables
+.env
+.env.local

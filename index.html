@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Group Retreat Website" />
+    <title>Group Retreat 2026</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Group Retreat 2026</h1>
+        <p class="tagline">Lakeside Perspectives</p>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#location">Location</a></li>
+          <li><a href="#participants">Participants</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#local-info">Information</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- Location Section -->
+      <section id="location" class="section">
+        <h2>🗺️ Location & Transportation</h2>
+        <div class="section-content">
+          <div class="card">
+            <h3>Venue</h3>
+            <p><strong>Address:</strong> [Insert address]</p>
+            <p><strong>Postal Code:</strong> [Insert postal code]</p>
+            <p><strong>City:</strong> [Insert city]</p>
+          </div>
+          <div class="card">
+            <h3>By Car</h3>
+            <p>[Directions by car. Coordinates: 00.0000°N, 00.0000°E]</p>
+          </div>
+          <div class="card">
+            <h3>By Public Transportation</h3>
+            <p>[Directions by train/bus]</p>
+          </div>
+          <div class="card">
+            <h3>Parking</h3>
+            <p>[Information about parking at the venue]</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Participants Section -->
+      <section id="participants" class="section">
+        <h2>👥 Participants</h2>
+        <div class="section-content">
+          <div id="participants-content" class="participants-list">
+            <p class="loading">Loading participants...</p>
+          </div>
+          <div class="note">
+            <strong>Note:</strong> Participants are automatically loaded from a
+            Markdown file.
+          </div>
+        </div>
+      </section>
+
+      <!-- Agenda Section -->
+      <section id="agenda" class="section">
+        <h2>📋 Agenda</h2>
+        <div class="section-content">
+          <div id="agenda-content" class="agenda-content">
+            <p class="loading">Loading agenda...</p>
+          </div>
+          <div class="note">
+            <strong>Note:</strong> The agenda is automatically loaded from a
+            Markdown file.
+            <a href="#" id="agenda-source-link">Edit the agenda here</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Local Information Section -->
+      <section id="local-info" class="section">
+        <h2>ℹ️ Local Information</h2>
+        <div class="section-content">
+          <div class="card">
+            <h3>Accommodation</h3>
+            <p>[Information about hotels, hostels, or accommodations nearby]</p>
+          </div>
+          <div class="card">
+            <h3>Restaurants & Dining</h3>
+            <p>[Recommendations for restaurants and cafés in the area]</p>
+          </div>
+          <div class="card">
+            <h3>Activities</h3>
+            <p>[Leisure activities and attractions in the region]</p>
+          </div>
+          <div class="card">
+            <h3>Weather & Packing List</h3>
+            <p>[Weather forecast and packing recommendations]</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Group Retreat. Last updated:
+          <span id="last-updated"></span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

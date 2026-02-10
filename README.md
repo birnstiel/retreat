@@ -1,32 +1,6 @@
-# Team Retreat Website
+# Group Retreat Website
 
-A modern, responsive website for your team retreat with automatic Markdown rendering for the agenda.
-
-## 🚀 Quick Start
-
-### 1. Create a GitHub Repository
-
-1. Go to [GitHub](https://github.com) and sign in
-2. Click **+** → **New repository**
-3. Name it `retreat`
-4. Set it to **Public** (so the Markdown file can be accessed)
-5. Click **Create repository**
-
-### 2. Push Files to GitHub
-
-```bash
-# Run in your retreat directory
-git init
-git add .
-git commit -m "Initial commit: Retreat website"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/retreat.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username.
-
-### 3. Enable GitHub Pages
+### 1. Enable GitHub Pages
 
 1. Go to your repository on GitHub
 2. Click **Settings**
@@ -35,12 +9,12 @@ Replace `YOUR-USERNAME` with your GitHub username.
 5. Click **Save**
 6. Your site will be live at: `https://YOUR-USERNAME.github.io/retreat`
 
-### 4. Update the Agenda URL
+### 2. Update the Agenda URL
 
 Edit `script.js` and replace `YOUR-USERNAME` with your actual GitHub username in:
 
 ```javascript
-const AGENDA_MARKDOWN_URL = 'https://raw.githubusercontent.com/YOUR-USERNAME/retreat/main/agenda.md';
+const AGENDA_MARKDOWN_URL = 'https://raw.githubusercontent.com/birnstiel/retreat/main/agenda.md';
 ```
 
 ---
@@ -71,15 +45,12 @@ Edit `style.css` at the top:
 
 ### Add Participants
 
-In `index.html`, find the Participants section and add:
+Just modify `participants.md` - the website automatically loads and displays your changes!
 
-```html
-<div class="participant-card">
-    <div class="participant-avatar">X</div>
-    <h3>Person's Name</h3>
-    <p class="participant-role">Their Role</p>
-</div>
-```
+
+### Update the Agenda
+
+Simply edit `agenda.md` - the website automatically loads and displays your changes!
 
 ### Update Website Content
 
@@ -88,27 +59,7 @@ Edit the card content in `index.html`:
 - **Local Info**: Hotels, restaurants, attractions
 - Any other text sections
 
-### Update the Agenda
-
-Simply edit `agenda.md` - the website automatically loads and displays your changes!
-
----
-
-## 📤 Publishing Changes
-
-After making any changes:
-
-```bash
-git add .
-git commit -m "Description of changes"
-git push
-```
-
-Your website updates automatically within seconds.
-
----
-
-## ✨ Features
+## Features
 
 ✅ **Auto-Rendering Agenda** - Edit Markdown, website shows it instantly  
 ✅ **Responsive Design** - Looks great on mobile, tablet, and desktop  
@@ -131,10 +82,6 @@ Your website updates automatically within seconds.
 
 ## 📱 Important URLs
 
-- **Website**: `https://YOUR-USERNAME.github.io/retreat`
-- **Repository**: `https://github.com/YOUR-USERNAME/retreat`
-- **Raw Agenda**: `https://raw.githubusercontent.com/YOUR-USERNAME/retreat/main/agenda.md`
-
----
-
-**Enjoy your retreat! 🎉**
+- **Website**: `https://birnstiel.github.io/retreat`
+- **Repository**: `https://github.com/birnstiel/retreat`
+- **Raw Agenda**: `https://raw.githubusercontent.com/birnstiel/retreat/main/agenda.md`

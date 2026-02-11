@@ -11,7 +11,7 @@
 
 ### 2. Update the Agenda URL
 
-Edit `script.js` and replace `birnstiel` with your actual GitHub username in:
+Edit `script.js` and replace your actual GitHub username in:
 
 ```javascript
 const AGENDA_MARKDOWN_URL = 'https://raw.githubusercontent.com/birnstiel/retreat/main/agenda.md';
@@ -23,7 +23,7 @@ const AGENDA_MARKDOWN_URL = 'https://raw.githubusercontent.com/birnstiel/retreat
 
 - `index.html` - Main website with sections for location, participants, agenda, and local info
 - `style.css` - Modern, responsive design (customize colors here)
-- `script.js` - Automatically loads and renders agenda from GitHub
+- `script.js` - Automatically loads and renders agenda from GitHub - turn sorting participants on/off
 - `agenda.md` - Your agenda in Markdown format
 - `.gitignore` - Standard git configuration
 
@@ -46,7 +46,8 @@ Edit `style.css` at the top:
 ### Add Participants
 
 Just modify `participants.md` - the website automatically loads and displays your changes!
-
+The participants are sorted by last name (assuming last word in first column). You can turn
+this off at the top of `script.js` by setting `const SORT_PARTICIPANTS = false;`.
 
 ### Update the Agenda
 
@@ -71,12 +72,12 @@ Edit the card content in `index.html`:
 
 ## ❓ Troubleshooting
 
-| Issue | Solution |
-|-------|----------|
-| Agenda not loading | Check the URL in `script.js` and ensure your repository is public |
-| Changes not showing | Wait a few seconds and hard-refresh: Ctrl+Shift+R or Cmd+Shift+R |
-| Site looks broken | Clear your browser cache or try incognito mode |
-| Markdown not rendering | Make sure `agenda.md` is valid Markdown syntax |
+| Issue                  | Solution                                                          |
+|------------------------|-------------------------------------------------------------------|
+| Agenda not loading     | Check the URL in `script.js` and ensure your repository is public |
+| Changes not showing    | Wait a few seconds and hard-refresh: Ctrl+Shift+R or Cmd+Shift+R  |
+| Site looks broken      | Clear your browser cache or try incognito mode                    |
+| Markdown not rendering | Make sure `agenda.md` is valid Markdown syntax                    |
 
 ---
 

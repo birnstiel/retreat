@@ -1,3 +1,6 @@
+---
+# Jekyll front matter - required for Jekyll to process template syntax like {{ site.time }}
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -45,17 +48,28 @@
           </div>
           <div class="card">
             <h3>By Public Transportation</h3>
-            <ul>
+            There are two routes to reach Fraueninsel from Munich Hauptbahnhof (main train station):
+            <p> Tip: Enter the destination “Frauenchiemsee” on the Deutsche Bahn <a href="https://www.bahn.de/">website</a> to get the best connection. </p>
+            <br>
+            Option 1: Via Prien am Chiemsee
+            <ul style="margin-left: 30px;">
               <li>~1-hour train ride from Munich Hauptbahnhof to Prien am Chiemsee (regional trains run hourly)</li>
-              <li>~8-minute bus (481) ride / 20-minute walk / <a href="https://www.chiemsee-schifffahrt.de/de/chiemsee-bahn/chiemsee-bahn">Chiemsee bahn heritage train</a> from Prien am Chiemsee station to Prien Hafen (harbor)</li>
+              <li>~8-minute bus ride / 20-minute walk / <a href="https://www.chiemsee-schifffahrt.de/de/chiemsee-bahn/chiemsee-bahn">Chiemsee bahn heritage train</a> from Prien am Chiemsee station to Prien Hafen (harbor)</li>
               <li>~30-minute ferry from Prien Hafen to Fraueninsel (runs every 30 minutes: <a href="https://www.chiemsee-schifffahrt.de/en/timetable/timetable-winter-from-22092025">see schedule</a>)</li>
+            </ul>
+            <br>
+            Option 2: Via Gstadt
+            <ul style="margin-left: 30px;">
+              <li>~1-hour train ride from Munich Hauptbahnhof to Prien am Chiemsee (regional trains run hourly)</li>
+              <li>~20-minute bus ride from Prien am Chiemsee to Gstadt </li>
+              <li>~10-minute ferry from Gstadt Hafen to Fraueninsel (runs every 30 minutes: <a href="https://www.chiemsee-schifffahrt.de/en/timetable/timetable-winter-from-22092025">see schedule</a>)</li>
             </ul>
           </div>
           <div class="card">
             <h3>By Car until Prien am Chiemsee</h3>
-                Take the A8 motorway from Munich toward Salzburg.  Exit at Bernau am Chiemsee and follow signs toward Prien am Chiemsee.
-            <br> Fraueninsel is car free. Take ferry from Prien Hafen to Fraueninsel (see above).
-            <p> There are paid parking areas near the lake in <a href="https://maps.app.goo.gl/4cnVZTx4iQ7vm4Gs7">Prien am Chiemsee</a></a>.
+                Take the A8 motorway from Munich toward Salzburg.  Exit at Bernau am Chiemsee and follow signs toward Prien am Chiemsee / Gstadt.
+            <br> Fraueninsel is car free. Take ferry from either Prien Hafen or Gstadt Hafen to Fraueninsel (see above).
+            <p> There are paid parking areas near the lake in <a href="https://maps.app.goo.gl/4cnVZTx4iQ7vm4Gs7">Prien am Chiemsee</a> and in <a href="https://maps.app.goo.gl/EKZ2YobDaPAHuaSH6">Gstadt</a>.
             </p>
           </div>
         </div>
@@ -110,7 +124,7 @@
       <div class="container">
         <p>
           &copy; 2026 Group Retreat. Last updated:
-          <span id="last-updated"></span>
+          {{ site.time | date: "%B %d, %Y at %I:%M %p %Z" }}
         </p>
       </div>
     </footer>

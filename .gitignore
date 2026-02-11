@@ -21,3 +21,8 @@ build/
 # Environment variables
 .env
 .env.local
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata

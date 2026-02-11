@@ -1,5 +1,4 @@
-<div style="text-align: right;"><em>B = Breakfast ; L = Lunch ; D =
-Dinner</em></div>
+<div style="text-align: right;"><em>B = Breakfast ; L = Lunch ; D = Dinner (& overnight stay)</em></div>
 
 | Name                 | Affiliation        | April 26 | April 27 | April 28 | April 29 | April 30 |
 | -------------------- | ------------------ | -------- | -------- | -------- | -------- | -------- |
@@ -21,19 +20,19 @@ Dinner</em></div>
 | Kees Dullemond       | ITA                | D        | B/L/D    | B/L      | -        | -        |
 | Hubert Klahr         | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Stefan Adelbert      | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Mario Flock          | MPIA               | ?        | L/D      | B/L/D    | B/L      | -        |
+| Mario Flock          | MPIA               | -        | L/D      | B/L/D    | B/L      | -        |
 | Prakruti Sudarshan   | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Anastasia Tzouvanou  | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Alfie Robinson       | Imperial           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Maria Semerkina      | Imperial           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Ondrej Chrenko       | Charles University | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Giovanni Rosotti     | Milan              | -        | -        | -        | B/L/D    | B/L      |
-| Lina Kimmig          | Milan              | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
+| Giovanni Rosotti     | UMilan             | -        | -        | -        | L/D      | B/L      |
+| Lina Kimmig          | UMilan             | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Tommaso Grassi       | MPE                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
+| Enrique Macias       | ESO                | -        | -        | -        | L/D      | B/L      |
 | Tommy Lau            | UChicago           | -        | -        | -        | -        | -        |
 | Paola Pinilla        | UCL/MSSL           | -        | -        | -        | -        | -        |
 
 <!-- Christoph Mordasini -->
-<!-- Enrique Macias -->
 <!-- Richard Booth -->
 <!-- Richard Nelson -->

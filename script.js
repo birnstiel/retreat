@@ -7,7 +7,6 @@ const SORT_PARTICIPANTS = true; // Set to false to disable automatic sorting
 document.addEventListener("DOMContentLoaded", () => {
   loadAgenda();
   loadParticipants();
-  updateLastModified();
   setupNavigation();
 });
 
@@ -152,22 +151,6 @@ function escapeHtml(text) {
     "'": "&#039;",
   };
   return text.replace(/[&<>"']/g, (m) => map[m]);
-}
-
-// Update last modified timestamp
-function updateLastModified() {
-  const lastUpdated = document.getElementById("last-updated");
-  if (lastUpdated) {
-    const now = new Date();
-    const options = {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-    };
-    lastUpdated.textContent = now.toLocaleDateString("en-US", options);
-  }
 }
 
 // Smooth scrolling for navigation links

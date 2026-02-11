@@ -5,9 +5,9 @@
 }
 
 :root {
-  --primary-color: #3fa4bd;
-  --secondary-color: #43b5d5;
-  --accent-color: #3fa4bd;
+  --primary-color: #00883a;
+  --secondary-color: #0f1987;
+  --accent-color: #00883a;
   --text-dark: #1f2937;
   --text-light: #6b7280;
   --bg-light: #f9fafb;
@@ -35,7 +35,7 @@ body {
   background: linear-gradient(
     135deg,
     var(--primary-color) 0%,
-    var(--secondary-color) 100%
+    var(--primary-color) 100%
   );
   color: white;
   padding: 60px 0;
@@ -248,8 +248,8 @@ body {
 }
 
 /* Participants table - make date columns narrower */
-.participants-list table td:nth-child(n+3),
-.participants-list table th:nth-child(n+3) {
+.participants-list table td:nth-child(n + 3),
+.participants-list table th:nth-child(n + 3) {
   width: 80px;
   text-align: center;
 }

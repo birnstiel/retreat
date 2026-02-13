@@ -20,19 +20,20 @@
 | Kees Dullemond       | ITA                | D        | B/L/D    | B/L      | -        | -        |
 | Hubert Klahr         | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Stefan Adelbert      | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Mario Flock          | MPIA               | -        | L/D      | B/L/D    | B/L      | -        |
+| Mario Flock          | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Prakruti Sudarshan   | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Anastasia Tzouvanou  | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Alfie Robinson       | Imperial           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Maria Semerkina      | Imperial           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Ondrej Chrenko       | Charles University | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
+| Ondřej Chrenko       | Charles University | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Giovanni Rosotti     | UMilan             | -        | -        | -        | L/D      | B/L      |
 | Lina Kimmig          | UMilan             | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Tommaso Grassi       | MPE                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Enrique Macias       | ESO                | -        | -        | -        | L/D      | B/L      |
+| Richard Nelson       | QMUL               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Tommy Lau            | UChicago           | -        | -        | -        | -        | -        |
 | Paola Pinilla        | UCL/MSSL           | -        | -        | -        | -        | -        |
 
 <!-- Christoph Mordasini -->
 <!-- Richard Booth -->
-<!-- Richard Nelson -->
+

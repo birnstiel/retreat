@@ -93,14 +93,23 @@
       <section id="agenda" class="section">
         <h2>📋 Schedule</h2>
         <div class="section-content">
-          <div id="agenda-content" class="agenda-content">
-            <p class="loading">Loading agenda...</p>
+          <div id="agenda-notice" class="agenda-notice"></div>
+          <div class="tabs-container">
+            <div class="tabs-buttons">
+              <button class="tab-button active" data-day="sunday">Sunday, April 26</button>
+              <button class="tab-button" data-day="monday">Monday, April 27</button>
+              <button class="tab-button" data-day="tuesday">Tuesday, April 28</button>
+              <button class="tab-button" data-day="wednesday">Wednesday, April 29</button>
+              <button class="tab-button" data-day="thursday">Thursday, April 30</button>
+            </div>
+            <div class="tabs-content">
+              <div id="sunday" class="tab-panel active"></div>
+              <div id="monday" class="tab-panel"></div>
+              <div id="tuesday" class="tab-panel"></div>
+              <div id="wednesday" class="tab-panel"></div>
+              <div id="thursday" class="tab-panel"></div>
+            </div>
           </div>
-          <!-- <div class="note">
-            <strong>Note:</strong> The agenda is automatically loaded from a
-            Markdown file.
-            <a href="#" id="agenda-source-link">Edit the agenda here</a>
-          </div> -->
         </div>
       </section>
 

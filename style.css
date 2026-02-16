@@ -355,3 +355,157 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Tabs Styling */
+.tabs-container {
+  margin-top: 20px;
+}
+
+/* Agenda notice/banner */
+.agenda-notice {
+  display: none;
+  background-color: #fef3c7;
+  border-left: 4px solid var(--accent-color);
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: #92400e;
+  font-size: 0.95em;
+  text-align: center;
+}
+
+.agenda-notice strong {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.tabs-buttons {
+  display: flex;
+  gap: 10px;
+  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  padding: 12px 24px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text-light);
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.tab-button:hover {
+  color: var(--primary-color);
+  background-color: var(--bg-light);
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+  font-weight: 600;
+}
+
+.tabs-content {
+  min-height: 300px;
+}
+
+.tab-panel {
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tab content styling */
+.tab-panel h3 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.tab-panel table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tab-panel table th,
+.tab-panel table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.tab-panel table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
+/* Fixed width for Time column */
+.col-time {
+  width: 80px;
+}
+
+/* Fixed width for Speaker column */
+.col-speaker {
+  width: 200px;
+}
+
+/* Details column takes remaining space */
+.col-details {
+  width: auto;
+}
+
+.tab-panel table tr:hover {
+  background-color: var(--bg-light);
+}
+
+.tab-panel table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Responsive tabs */
+@media (max-width: 768px) {
+  .tabs-buttons {
+    flex-direction: column;
+    border-bottom: none;
+  }
+
+  .tab-button {
+    border-bottom: none;
+    border-left: 3px solid transparent;
+    text-align: left;
+  }
+
+  .tab-button.active {
+    border-left-color: var(--primary-color);
+    border-bottom-color: transparent;
+  }
+}

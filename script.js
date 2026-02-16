@@ -10,11 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
   setupNavigation();
 });
 
-// Load and render Markdown agenda
+// Load and render Markdown agenda with tabs
 async function loadAgenda() {
-  const agendaContent = document.getElementById("agenda-content");
-  const agendaSourceLink = document.getElementById("agenda-source-link");
-
   try {
     const response = await fetch(AGENDA_MARKDOWN_URL);
 
@@ -23,26 +20,190 @@ async function loadAgenda() {
     }
 
     const markdown = await response.text();
-    const htmlContent = marked.parse(markdown);
-    agendaContent.innerHTML = htmlContent;
 
-    // Update link to point to local file
-    if (agendaSourceLink) {
-      agendaSourceLink.href = AGENDA_MARKDOWN_URL;
+    // Extract and display heading (e.g., "### PRELIMINARY") and any following note
+    const headingMatch = markdown.match(/^###\s+(.+)$/m);
+    const noteMatch = markdown.match(/^\*(.+?)\*\s*$/m);
+
+    if (headingMatch) {
+      const noticeElement = document.getElementById('agenda-notice');
+      if (noticeElement) {
+        let noticeHTML = `<strong>${headingMatch[1]}</strong>`;
+
+        // Add note if found
+        if (noteMatch) {
+          noticeHTML += `
+            <br>
+            <span style="margin-top: 5px; display: inline-block;">
+              ${noteMatch[1].trim()}
+            </span>
+          `;
+        }
+
+        noticeElement.innerHTML = noticeHTML;
+        noticeElement.style.display = 'block';
+      }
     }
+
+    // Parse the agenda by days
+    const dayData = parseAgendaByDays(markdown);
+
+    // Populate each tab panel
+    dayData.forEach(day => {
+      const panel = document.getElementById(day.id);
+      if (panel) {
+        // Sunday doesn't need Speaker column
+        const isSunday = day.id === 'sunday';
+
+        panel.innerHTML = `
+          <h3>${day.title}</h3>
+          <table>
+            <thead>
+              <tr>
+                <th class="col-time">Time</th>
+                ${isSunday ? '' : '<th class="col-speaker">Speaker</th>'}
+                <th class="col-details">Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${day.rows.join('')}
+            </tbody>
+          </table>
+        `;
+      }
+    });
+
+    // Setup tab functionality
+    setupTabs();
+
   } catch (error) {
     console.error("Error loading agenda:", error);
-    agendaContent.innerHTML = `
-            <div style="background-color: #fee2e2; border-left: 4px solid #dc2626; padding: 20px; border-radius: 8px;">
-                <p style="color: #991b1b; margin: 0;">
-                    <strong>⚠️ Error loading agenda</strong><br>
-                    Error: ${error.message}
-                    <br><br>
-                    Current URL: <code>${AGENDA_MARKDOWN_URL}</code>
-                </p>
-            </div>
-        `;
+    const sundayPanel = document.getElementById("sunday");
+    if (sundayPanel) {
+      sundayPanel.innerHTML = `
+        <div style="background-color: #fee2e2; border-left: 4px solid #dc2626; padding: 20px; border-radius: 8px;">
+          <p style="color: #991b1b; margin: 0;">
+            <strong>⚠️ Error loading agenda</strong><br>
+            Error: ${error.message}
+          </p>
+        </div>
+      `;
+    }
   }
+}
+
+// Parse markdown agenda into structured day data
+function parseAgendaByDays(markdown) {
+  const lines = markdown.split('\n');
+  const days = [];
+  let currentDay = null;
+
+  const dayMap = {
+    'Sunday, April 26': { id: 'sunday', title: 'Sunday, April 26' },
+    'Monday, April 27': { id: 'monday', title: 'Monday, April 27' },
+    'Tuesday, April 28': { id: 'tuesday', title: 'Tuesday, April 28' },
+    'Wednesday, April 29': { id: 'wednesday', title: 'Wednesday, April 29' },
+    'Thursday, April 30': { id: 'thursday', title: 'Thursday, April 30' }
+  };
+
+  // Helper function to convert markdown bold and italics to HTML
+  function parseInlineMarkdown(text) {
+    if (!text) return text;
+    // Convert **text** to <strong>text</strong> (must be before single *)
+    text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+    // Convert *text* to <em>text</em>
+    text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+    return text;
+  }
+
+  for (const line of lines) {
+    // Check if line contains a day header
+    const dayMatch = line.match(/\*\*(Sunday|Monday|Tuesday|Wednesday|Thursday), April \d+\*\*/);
+
+    if (dayMatch) {
+      const dayKey = dayMatch[0].replace(/\*\*/g, '');
+      if (dayMap[dayKey]) {
+        if (currentDay) {
+          days.push(currentDay);
+        }
+        currentDay = {
+          id: dayMap[dayKey].id,
+          title: dayMap[dayKey].title,
+          rows: []
+        };
+
+        // Extract the time, speaker, and details from the same line
+        const parts = line.split('|').map(p => p.trim());
+        if (parts.length >= 4 && parts[2]) {
+          // Sunday doesn't need Speaker column
+          if (currentDay.id === 'sunday') {
+            currentDay.rows.push(`
+              <tr>
+                <td class="col-time">${parseInlineMarkdown(parts[2])}</td>
+                <td class="col-details">${parseInlineMarkdown(parts[4] || '')}</td>
+              </tr>
+            `);
+          } else {
+            currentDay.rows.push(`
+              <tr>
+                <td class="col-time">${parseInlineMarkdown(parts[2])}</td>
+                <td class="col-speaker">${parseInlineMarkdown(parts[3] || '')}</td>
+                <td class="col-details">${parseInlineMarkdown(parts[4] || '')}</td>
+              </tr>
+            `);
+          }
+        }
+      }
+    } else if (currentDay && line.includes('|')) {
+      // Parse regular table rows
+      const parts = line.split('|').map(p => p.trim());
+      if (parts.length >= 4 && parts[2] && !line.includes('---')) {
+        // Sunday doesn't need Speaker column
+        if (currentDay.id === 'sunday') {
+          currentDay.rows.push(`
+            <tr>
+              <td class="col-time">${parseInlineMarkdown(parts[2] || '')}</td>
+              <td class="col-details">${parseInlineMarkdown(parts[4] || '')}</td>
+            </tr>
+          `);
+        } else {
+          currentDay.rows.push(`
+            <tr>
+              <td class="col-time">${parseInlineMarkdown(parts[2] || '')}</td>
+              <td class="col-speaker">${parseInlineMarkdown(parts[3] || '')}</td>
+              <td class="col-details">${parseInlineMarkdown(parts[4] || '')}</td>
+            </tr>
+          `);
+        }
+      }
+    }
+  }
+
+  if (currentDay) {
+    days.push(currentDay);
+  }
+
+  return days;
+}
+
+// Setup tab switching functionality
+function setupTabs() {
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabPanels = document.querySelectorAll('.tab-panel');
+
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const targetDay = button.getAttribute('data-day');
+
+      // Remove active class from all buttons and panels
+      tabButtons.forEach(btn => btn.classList.remove('active'));
+      tabPanels.forEach(panel => panel.classList.remove('active'));
+
+      // Add active class to clicked button and corresponding panel
+      button.classList.add('active');
+      document.getElementById(targetDay).classList.add('active');
+    });
+  });
 }
 
 // Load and render Markdown participants

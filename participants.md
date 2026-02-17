@@ -31,9 +31,9 @@
 | Tommaso Grassi       | MPE                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Enrique Macias       | ESO                | -        | -        | -        | L/D      | B/L      |
 | Richard Nelson       | QMUL               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
+| Christoph Mordasini  | UBern              | -        | D        | B/L/D    | B/L    | -  |
 | Tommy Lau            | UChicago           | -        | -        | -        | -        | -        |
 | Paola Pinilla        | UCL/MSSL           | -        | -        | -        | -        | -        |
 
-<!-- Christoph Mordasini -->
 <!-- Richard Booth -->
 

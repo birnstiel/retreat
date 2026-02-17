@@ -1,6 +1,6 @@
 ### PRELIMINARY
 
-*Note: If your name appears in italics you have been assigned slots in both morning and afternoon sessions.*
+*Note: If your name appears in italics, you have been assigned slots in both morning and afternoon sessions.*
 
 | Day | Time | Speaker | Details |
 |-----|------|---------|---------|
@@ -25,7 +25,7 @@
 | | 09:50 | Kim Melanie Weiskopf | Disk Structures Created by a Single Migrating Planet |
 | | 10:10 | *Anna Penzlin* | SimPle Planet Evolution: Composition Tracking for Gas Giants in 1D |
 | | 10:30 | | Break |
-| | 10:50 | *Richard Nelson* | The Orbital Evolution of Planets in Low Viscosity Discs: Recent Results |
+| | 10:50 | *Richard Nelson* | The Orbital Evolution of Planets in Low Viscosity Disks: Recent Results |
 | | 11:10 | *Alex Ziampras* | How 2D Are Planet–Disk Interactions? Radiative Cooling and Suitable Prescriptions |
 | | 11:30 | *Ondřej Chrenko* | Thermal Structure of Circumplanetary Environments and Its Impact on CO Emission |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
@@ -44,15 +44,15 @@
 | | 11:10 | Alfie Robinson | Volatile Evolution in Thermally Self-Consistent Dust Evolution Models |
 | | 11:30 | *Giovanni Picogna* | Photoevaporation/migration |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
-| | 14:00 | *Giovanni Picogna* | **Lecture:** Disc Winds Overview |
+| | 14:00 | *Giovanni Picogna* | **Lecture:** Disk Winds Overview |
 | | 15:00 | *Sebastian Stammler*, *Thomas Pfeil* & <br> *Nicolas Kaufmann*  | **Hands-on session:** DustPy, DustPyLibe, TriPoD & TriPodPy |
 | | 16:30 | Tommy Lau | Planet Formation Modelling with TriPoDPy + GENGA |
 | | 16:50 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | **Thursday, April 30** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a>|
 | | 09:30 | Paola Pinilla | The Effect of Mild-External Photoevaporation on the Evolution of Protoplanetary Disks |
-| | 09:50 | *Enrique Macias* | The Dust Content of Protoplanetary Discs: An Observational Perspective |
-| | 10:10 | Giovanni Rosotti | Comparing ALMA Gas Surveys and Disc Population Synthesis Models |
+| | 09:50 | *Enrique Macias* | The Dust Content of Protoplanetary Disks: An Observational Perspective |
+| | 10:10 | Giovanni Rosotti | Comparing ALMA Gas Surveys and Disk Population Synthesis Models |
 | | 10:30 | | Break |
 | | 10:50 | Mario Flock | Multi-Dust Inner Rim of Magnetized Protoplanetary Disks |
 | | 11:10 | Prakruti Sudarshan | Multi-Fluid Dust and Radiation Hydrodynamics: Where Different Methods Agree/Disagree |

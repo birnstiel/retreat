@@ -1,6 +1,6 @@
 ### PRELIMINARY
 
-*Note: If your name appears in italics, you have been assigned slots in both morning and afternoon sessions.*
+*Note: If your name appears in italics, you have been assigned slots in both morning and afternoon sessions on either days.*
 
 | Day | Time | Speaker | Details |
 |-----|------|---------|---------|
@@ -15,7 +15,7 @@
 | | 11:10 | Anastasia Tzouvanou | Study of Magnetic Flux Transport Using Global Non-Ideal MHD Models |
 | | 11:30 | *Tommaso Grassi* | Interpretable and Differentiable Models for Extracting Physical Information from Astrophysical Spectral Data |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
-| | 14:00 | TBD | **Lecture:** Cosmochemistry for Dummies |
+| | 14:00 | Joanna Drążkowska | **Lecture:** Cosmochemistry for Dummies |
 | | 15:00 | *Kees Dullemond* & <br> *Alex Ziampras* | **Hands-on session:** RADMC-3D & pyFLD: Simple 3D Radiative Transfer in Python |
 | | 16:30 | *Anna Penzlin* & <br> *Ondřej Chrenko* | **Hands-on parallel sessions:** PLUTO & FARGO3D |
 | | 17:00 | | Free slot for discussions |
@@ -40,9 +40,9 @@
 | | 09:50 | *Thomas Pfeil* | Impact of Dust Coagulation on Hydrodynamic Turbulence or Realistic Cooling and Feedback with TriPoD |
 | | 10:10 | *Nicolas Kaufmann* | TriPoDPy: A Versatile Toolbox for Fast 1D Dust Evolution: How Do Accretion Outbursts Affect the Inner Disk Composition |
 | | 10:30 | | Break |
-| | 10:50 | Joanna Drążkowska | Dust Evolution During Disk Buildup Leads to CO Ice Enhancement Relative to Water |
-| | 11:10 | Alfie Robinson | Volatile Evolution in Thermally Self-Consistent Dust Evolution Models |
-| | 11:30 | *Giovanni Picogna* | Photoevaporation/migration |
+| | 10:50 | Alfie Robinson | Volatile Evolution in Thermally Self-Consistent Dust Evolution Models |
+| | 11:10 | *Giovanni Picogna* | Photoevaporation / migration |
+| | 11:30 |  | Free slot |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | *Giovanni Picogna* | **Lecture:** Disk Winds Overview |
 | | 15:00 | *Sebastian Stammler*, *Thomas Pfeil* & <br> *Nicolas Kaufmann*  | **Hands-on session:** DustPy, DustPyLibe, TriPoD & TriPodPy |

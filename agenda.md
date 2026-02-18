@@ -41,12 +41,12 @@
 | | 10:10 | *Nicolas Kaufmann* | TriPoDPy: A Versatile Toolbox for Fast 1D Dust Evolution: How Do Accretion Outbursts Affect the Inner Disk Composition |
 | | 10:30 | | Break |
 | | 10:50 | Alfie Robinson | Volatile Evolution in Thermally Self-Consistent Dust Evolution Models |
-| | 11:10 | *Giovanni Picogna* | Photoevaporation / migration |
+| | 11:10 | *Giovanni Picogna* | Photoevaporation / Migration |
 | | 11:30 |  | Free slot |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | *Giovanni Picogna* | **Lecture:** Disk Winds Overview |
 | | 15:00 | *Sebastian Stammler*, *Thomas Pfeil* & <br> *Nicolas Kaufmann*  | **Hands-on session:** DustPy, DustPyLibe, TriPoD & TriPodPy |
-| | 16:30 | Tommy Lau | Planet Formation Modelling with TriPoDPy + GENGA |
+| | 16:30 | Tommy Lau | **Hands-on session:** Planet Formation Modelling with TriPoDPy + GENGA |
 | | 16:50 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | **Thursday, April 30** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a>|

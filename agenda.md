@@ -1,6 +1,6 @@
 ### PRELIMINARY
 
-*Note: If your name appears in italics, you have been assigned slots in both morning and afternoon sessions on either days.*
+*Note: If your name appears in italics, you have been assigned slots in both morning and afternoon sessions, possibly on different days.*
 
 | Day | Time | Speaker | Details |
 |-----|------|---------|---------|
@@ -42,17 +42,17 @@
 | | 10:30 | | Break |
 | | 10:50 | Alfie Robinson | Volatile Evolution in Thermally Self-Consistent Dust Evolution Models |
 | | 11:10 | *Giovanni Picogna* | Photoevaporation / Migration |
-| | 11:30 |  | Free slot |
+| | 11:30 | Paola Pinilla | The Effect of Mild-External Photoevaporation on the Evolution of Protoplanetary Disks |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | *Giovanni Picogna* | **Lecture:** Disk Winds Overview |
-| | 15:00 | *Sebastian Stammler*, *Thomas Pfeil* & <br> *Nicolas Kaufmann*  | **Hands-on session:** DustPy, DustPyLibe, TriPoD & TriPodPy |
+| | 15:00 | *Sebastian Stammler*, *Thomas Pfeil* & <br> *Nicolas Kaufmann*  | **Hands-on session:** DustPy, DustPyLib, TriPoD & TriPodPy |
 | | 16:30 | Tommy Lau | **Hands-on session:** Planet Formation Modelling with TriPoDPy + GENGA |
 | | 16:50 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | **Thursday, April 30** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a>|
-| | 09:30 | Paola Pinilla | The Effect of Mild-External Photoevaporation on the Evolution of Protoplanetary Disks |
-| | 09:50 | *Enrique Macias* | The Dust Content of Protoplanetary Disks: An Observational Perspective |
-| | 10:10 | Giovanni Rosotti | Comparing ALMA Gas Surveys and Disk Population Synthesis Models |
+| | 09:30 | *Enrique Macias* | The Dust Content of Protoplanetary Disks: An Observational Perspective |
+| | 09:50 | Giovanni Rosotti | Comparing ALMA Gas Surveys and Disk Population Synthesis Models |
+| | 10:10 | TBD | Free slot / More on Population Synthesis Models |
 | | 10:30 | | Break |
 | | 10:50 | Mario Flock | Multi-Dust Inner Rim of Magnetized Protoplanetary Disks |
 | | 11:10 | Prakruti Sudarshan | Multi-Fluid Dust and Radiation Hydrodynamics: Where Different Methods Agree/Disagree |

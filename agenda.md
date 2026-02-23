@@ -17,7 +17,7 @@
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | Joanna Drążkowska | **Lecture:** Cosmochemistry for Dummies |
 | | 15:00 | *Kees Dullemond* & <br> *Alex Ziampras* | **Hands-on session:** RADMC-3D & pyFLD: Simple 3D Radiative Transfer in Python |
-| | 16:30 | *Anna Penzlin* & <br> *Ondřej Chrenko* | **Hands-on parallel sessions:** PLUTO & FARGO3D |
+| | 16:30 | *Tommaso Grassi* | **Hands-on session:** <a href="https://github.com/tgrassi/prizmo/">PRIZMO</a> |
 | | 17:00 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | **Tuesday, April 28** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
@@ -32,7 +32,7 @@
 | | 14:00 | *Richard Nelson* | **Lecture:** Planet-Disk Interactions in a Nutshell |
 | | 15:00 | Hubert Klahr | **Lecture:** PLUTO and Analytics: What Controls Pebble Clumping: Streaming Instability vs. Kelvin–Helmholtz vs. … / Turbulence, Pebbles and Planetesimals |
 | | 16:00 | *Lina Kimmig* & <br> *Kees Dullemond* | **Lecture:** Introduction to the Theory of Warped Disk Evolution |
-| | 16:30 | *Tommaso Grassi* | **Hands-on session:** <a href="https://github.com/tgrassi/prizmo/">PRIZMO</a> / <a href="https://github.com/tgrassi/ppv_jax_public">PPV data cubes</a> |
+| | 16:30 | *Anna Penzlin* & <br> *Ondřej Chrenko* | **Hands-on parallel sessions:** PLUTO & FARGO3D |
 | | 17:00 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | **Wednesday, April 29** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
@@ -58,5 +58,5 @@
 | | 11:10 | Prakruti Sudarshan | Multi-Fluid Dust and Radiation Hydrodynamics: Where Different Methods Agree/Disagree |
 | | 11:30 | Dhruv Muley | Multispecies, Non-Equilibrium Radiation Hydrodynamics: Numerical Method and Test Problems |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
-| | 14:00 | Sreejita Das & <br> *Enrique Macias* | **Lecture & hands-on session:** Introduction to Interferometric Imaging |
+| | 14:00 | Sreejita Das & <br> *Enrique Macias* | **Lecture & Hands-on session:** Introduction to Interferometric Imaging |
 | | 16:00 | | Departure |

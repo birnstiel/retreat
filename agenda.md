@@ -9,7 +9,7 @@
 | **Monday, April 27** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
 | | 09:30 | Haichen Zhao | Planet Formation Initiated by Infall-Induced Pressure Bumps |
 | | 09:50 | *Kees Dullemond* | Late Infall and Transitional Disks |
-| | 10:10 | *Lina Kimmig* | Fly-by Butterfly! Warping Protoplanetary Disks in Inclined Stellar Fly-bys |
+| | 10:10 | Lina Kimmig | Fly-by Butterfly! Warping Protoplanetary Disks in Inclined Stellar Fly-bys |
 | | 10:30 | | Break |
 | | 10:50 | Michael Hammer | TBD |
 | | 11:10 | Anastasia Tzouvanou | Study of Magnetic Flux Transport Using Global Non-Ideal MHD Models |
@@ -31,7 +31,7 @@
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | *Richard Nelson* | **Lecture:** Planet-Disk Interactions in a Nutshell |
 | | 15:00 | Hubert Klahr | **Lecture:** PLUTO and Analytics: What Controls Pebble Clumping: Streaming Instability vs. Kelvin–Helmholtz vs. … / Turbulence, Pebbles and Planetesimals |
-| | 16:00 | *Lina Kimmig* & <br> *Kees Dullemond* | **Lecture:** Introduction to the Theory of Warped Disk Evolution |
+| | 16:00 | Richard Booth | Towards Predictive Models of Planet Composition: An Interplay Between Radial Drift, Mixing, and Chemical Processes |
 | | 16:30 | *Anna Penzlin* & <br> *Ondřej Chrenko* | **Hands-on parallel sessions:** PLUTO & FARGO3D |
 | | 17:00 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |

@@ -20,20 +20,20 @@
 | | 16:30 | *Tommaso Grassi* | **Hands-on session:** <a href="https://github.com/tgrassi/prizmo/">PRIZMO</a> |
 | | 17:00 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
+| | 21:00 | *Anna Penzlin* & <br> *Ondřej Chrenko* | **Hands-on parallel sessions:** PLUTO & FARGO3D |
 | **Tuesday, April 28** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
 | | 09:30 | Stefan Adelbert | Planetesimal Mass Distribution Simulations with DustPy |
 | | 09:50 | Kim Melanie Weiskopf | Disk Structures Created by a Single Migrating Planet |
 | | 10:10 | *Anna Penzlin* | SimPle Planet Evolution: Composition Tracking for Gas Giants in 1D |
 | | 10:30 | | Break |
-| | 10:50 | *Richard Nelson* | The Orbital Evolution of Planets in Low Viscosity Disks: Recent Results |
+| | 10:50 | *Richard Booth* | Towards Predictive Models of Planet Composition: An Interplay Between Radial Drift, Mixing, and Chemical Processes |
 | | 11:10 | *Alex Ziampras* | How 2D Are Planet–Disk Interactions? Radiative Cooling and Suitable Prescriptions |
 | | 11:30 | *Ondřej Chrenko* | Thermal Structure of Circumplanetary Environments and Its Impact on CO Emission |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
-| | 14:00 | *Richard Nelson* | **Lecture:** Planet-Disk Interactions in a Nutshell |
-| | 15:00 | Hubert Klahr | **Lecture:** PLUTO and Analytics: What Controls Pebble Clumping: Streaming Instability vs. Kelvin–Helmholtz vs. … / Turbulence, Pebbles and Planetesimals |
-| | 16:00 | Richard Booth | Towards Predictive Models of Planet Composition: An Interplay Between Radial Drift, Mixing, and Chemical Processes |
-| | 16:30 | *Anna Penzlin* & <br> *Ondřej Chrenko* | **Hands-on parallel sessions:** PLUTO & FARGO3D |
-| | 17:00 | | Free slot for discussions |
+| | 14:00 | Richard Nelson | **Lecture:** Planet-Disk Interactions in a Nutshell |
+| | 14:30 | Hubert Klahr | **Lecture:** PLUTO and Analytics: What Controls Pebble Clumping: Streaming Instability vs. Kelvin–Helmholtz vs. … / Turbulence, Pebbles and Planetesimals |
+| | 15:00 | *Richard Booth* | **Hands-on session:** cudisc |
+| | 15:30 | | Free afternoon / Hour-long walking tour |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | **Wednesday, April 29** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
 | | 09:30 | *Sebastian Stammler* | How Grain Charging Influences Dust Collisions |
@@ -58,5 +58,5 @@
 | | 11:10 | Prakruti Sudarshan | Multi-Fluid Dust and Radiation Hydrodynamics: Where Different Methods Agree/Disagree |
 | | 11:30 | Dhruv Muley | Multispecies, Non-Equilibrium Radiation Hydrodynamics: Numerical Method and Test Problems |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
-| | 14:00 | Sreejita Das & <br> *Enrique Macias* | **Lecture & Hands-on session:** Introduction to Interferometric Imaging |
+| | 14:00 | Sreejita Das, <br> Elena Viscardi, & <br> *Enrique Macias* | **Lecture & Hands-on session:** Introduction to Interferometric Imaging |
 | | 16:00 | | Departure |

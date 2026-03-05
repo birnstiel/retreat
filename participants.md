@@ -33,6 +33,7 @@
 | Richard Nelson       | QMUL               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Christoph Mordasini  | UBern              | -        | D        | B/L/D    | B/L    | -  |
 | Richard Booth        | Leeds              | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
+| Elena Viscardi       | ESO                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Tommy Lau            | UChicago           | -        | -        | -        | -        | -        |
 | Paola Pinilla        | UCL/MSSL           | -        | -        | -        | -        | -        |
 

@@ -6,7 +6,7 @@
 | Asmita Bhandare      | USM, LMU           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Anna Penzlin         | USM, LMU           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Sebastian Stammler   | USM, LMU           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Nicolas Kaufmann     | USM, LMU           | -        | L/D    | B/L/D    | B/L/D    | B/L      |
+| Nicolas Kaufmann     | USM, LMU           | -        | L/D      | B/L/D    | B/L/D    | B/L      |
 | Alex Ziampras        | USM, LMU           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Giovanni Tedeschi    | USM, LMU           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Kim Melanie Weiskopf | USM, LMU           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
@@ -31,7 +31,7 @@
 | Tommaso Grassi       | MPE                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Enrique Macias       | ESO                | -        | -        | -        | L/D      | B/L      |
 | Richard Nelson       | QMUL               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Christoph Mordasini  | UBern              | -        | D        | B/L/D    | B/L    | -  |
+| Christoph Mordasini  | UBern              | -        | D        | B/L/D    | B/L      | -        |
 | Richard Booth        | Leeds              | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Elena Viscardi       | ESO                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Tommy Lau            | UChicago           | -        | -        | -        | -        | -        |

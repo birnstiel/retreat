@@ -1,12 +1,14 @@
 // Configuration
 const AGENDA_MARKDOWN_URL = "agenda.md";
 const PARTICIPANTS_MARKDOWN_URL = "participants.md";
+const DISCUSSION_TOPICS_MARKDOWN_URL = "discussion-topics.md";
 const SORT_PARTICIPANTS = true; // Set to false to disable automatic sorting
 
 // Initialize on page load
 document.addEventListener("DOMContentLoaded", () => {
   loadAgenda();
   loadParticipants();
+  loadDiscussionTopics();
   setupNavigation();
 });
 
@@ -204,6 +206,35 @@ function setupTabs() {
       document.getElementById(targetDay).classList.add('active');
     });
   });
+}
+
+// Load and render Markdown discussion topics
+async function loadDiscussionTopics() {
+  const discussionContent = document.getElementById("discussion-topics-content");
+
+  try {
+    const response = await fetch(DISCUSSION_TOPICS_MARKDOWN_URL);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const markdown = await response.text();
+    const htmlContent = marked.parse(markdown);
+    discussionContent.innerHTML = htmlContent;
+  } catch (error) {
+    console.error("Error loading discussion topics:", error);
+    discussionContent.innerHTML = `
+            <div style="background-color: #fee2e2; border-left: 4px solid #dc2626; padding: 20px; border-radius: 8px;">
+                <p style="color: #991b1b; margin: 0;">
+                    <strong>⚠️ Error loading discussion topics</strong><br>
+                    Please make sure discussion-topics.md exists in the same directory.
+                    <br><br>
+                    Current URL: <code>${DISCUSSION_TOPICS_MARKDOWN_URL}</code>
+                </p>
+            </div>
+        `;
+  }
 }
 
 // Load and render Markdown participants

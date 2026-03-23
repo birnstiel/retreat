@@ -17,7 +17,7 @@
 | Joanna Drążkowska    | MPS                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Michael Hammer       | MPS                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Haichen Zhao         | MPS                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Kees Dullemond       | ITA                | D        | B/L/D    | B/L      | -        | -        |
+| León-Alexander Hühn  | ITA                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Hubert Klahr         | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Stefan Adelbert      | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Mario Flock          | MPIA               | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
@@ -36,4 +36,6 @@
 | Elena Viscardi       | ESO                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Tommy Lau            | UChicago           | -        | -        | -        | -        | -        |
 | Paola Pinilla        | UCL/MSSL           | -        | -        | -        | -        | -        |
-
+| Kees Dullemond       | ITA                | -        | -        | -        | -        | -        |
+| Barbara Ercolano     | USM, LMU           | -        | -        | -        | -        | -        |
+| Alex Cridland        | USM, LMU           | -        | -        | -        | -        | -        |

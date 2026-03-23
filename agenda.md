@@ -7,7 +7,7 @@
 | | 18:00 | | Dinner at <a href="https://www.klosterwirt-chiemsee.de/">Klosterwirt</a>|
 | **Monday, April 27** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
 | | 09:30 | Haichen Zhao | Planet Formation Initiated by Infall-Induced Pressure Bumps |
-| | 09:50 | *Kees Dullemond* | Late Infall and Transitional Disks |
+| | 09:50 | *León-Alexander Hühn* | Late Infall and Transitional Disks |
 | | 10:10 | Lina Kimmig | Fly-by Butterfly! Warping Protoplanetary Disks in Inclined Stellar Fly-bys |
 | | 10:30 | | Break |
 | | 10:50 | Anastasia Tzouvanou | Study of Magnetic Flux Transport Using Global Non-Ideal MHD Models |
@@ -15,7 +15,7 @@
 | | 11:30 | *Tommaso Grassi* | Interpretable and Differentiable Models for Extracting Physical Information from Astrophysical Spectral Data |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | Joanna Drążkowska | **Lecture:** Cosmochemistry for Dummies |
-| | 15:00 | *Kees Dullemond* & <br> *Alex Ziampras* | **Hands-on session:** RADMC-3D & pyFLD: Simple 3D Radiative Transfer in Python |
+| | 15:00 | *León-Alexander Hühn* & <br> *Alex Ziampras* | **Hands-on session:** RADMC-3D & pyFLD: Simple 3D Radiative Transfer in Python |
 | | 16:30 | *Tommaso Grassi* | **Hands-on session:** <a href="https://github.com/tgrassi/prizmo/">PRIZMO</a> |
 | | 17:00 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |

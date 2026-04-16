@@ -14,7 +14,6 @@
 | Giovanni Picogna     | USM, LMU           | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Dhruv Muley          | MPA                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Thomas Pfeil         | Flatiron Institute | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
-| Joanna Drążkowska    | MPS                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Michael Hammer       | MPS                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Haichen Zhao         | MPS                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | León-Alexander Hühn  | ITA                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
@@ -34,8 +33,9 @@
 | Christoph Mordasini  | UBern              | -        | D        | B/L/D    | B/L      | -        |
 | Richard Booth        | Leeds              | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
 | Elena Viscardi       | ESO                | D        | B/L/D    | B/L/D    | B/L/D    | B/L      |
+| Joanna Drążkowska    | MPS                | -        | -        | -        | -        | -        |
 | Tommy Lau            | UChicago           | -        | -        | -        | -        | -        |
 | Paola Pinilla        | UCL/MSSL           | -        | -        | -        | -        | -        |
 | Kees Dullemond       | ITA                | -        | -        | -        | -        | -        |
 | Barbara Ercolano     | USM, LMU           | -        | -        | -        | -        | -        |
-| Alex Cridland        | USM, LMU           | -        | -        | -        | -        | -        |
+| Alex Cridland        | USM, LMU           | -        | -        | -        | -        | L        |

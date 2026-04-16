@@ -21,13 +21,13 @@
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 21:00 | *Anna Penzlin* & <br> *Ondřej Chrenko* | **Hands-on parallel sessions:** PLUTO & FARGO3D |
 | **Tuesday, April 28** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
-| | 09:30 | Kim Melanie Weiskopf | Disk Structures Created by a Single Migrating Planet |
-| | 09:50 | Michael Hammer | Planetesimal Formation During the Buildup of Protoplanetary Disks with Substructure |
-| | 10:10 | Stefan Adelbert | Planetesimal Mass Distribution Simulations with DustPy |
+| | 09:30 | Michael Hammer | Planetesimal Formation During the Buildup of Protoplanetary Disks with Substructure |
+| | 09:50 | Stefan Adelbert | Planetesimal Mass Distribution Simulations with DustPy |
+| | 10:10 | *Anna Penzlin* | SimPle Planet Evolution: Composition Tracking for Gas Giants in 1D |
 | | 10:30 | | Break |
-| | 10:50 | *Anna Penzlin* | SimPle Planet Evolution: Composition Tracking for Gas Giants in 1D |
-| | 11:10 | *Richard Booth* | Towards Predictive Models of Planet Composition: An Interplay Between Radial Drift, Mixing, and Chemical Processes |
-| | 11:30 | *Alex Ziampras* | How 2D Are Planet–Disk Interactions? Radiative Cooling and Suitable Prescriptions |
+| | 10:50 | *Richard Booth* | Towards Predictive Models of Planet Composition: An Interplay Between Radial Drift, Mixing, and Chemical Processes |
+| | 11:10 | *Alex Ziampras* | How 2D Are Planet–Disk Interactions? Radiative Cooling and Suitable Prescriptions |
+| | 11:30 | Kim Melanie Weiskopf | Disk Structures Created by a Single Migrating Planet |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | Richard Nelson | **Lecture:** Planet-Disk Interactions in a Nutshell |
 | | 14:30 | Hubert Klahr | **Lecture:** PLUTO and Analytics: What Controls Pebble Clumping: Streaming Instability vs. Kelvin–Helmholtz vs. … / Turbulence, Pebbles and Planetesimals |
@@ -49,9 +49,9 @@
 | | 16:50 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | **Thursday, April 30** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a>|
-| | 09:30 | *Enrique Macias* | The Dust Content of Protoplanetary Disks: An Observational Perspective |
-| | 09:50 | Giovanni Rosotti | Comparing ALMA Gas Surveys and Disk Population Synthesis Models |
-| | 10:10 | TBD | Free slot / More on Population Synthesis Models |
+| | 09:30 | Giovanni Rosotti | Comparing ALMA Gas Surveys and Disk Population Synthesis Models |
+| | 09:50 | *Enrique Macias* | The Dust Content of Protoplanetary Disks: An Observational Perspective |
+| | 10:10 | Alex Cridland    | When Do the First Planetesimals Form? A Quick Look at Dust Mass Evolution in YSOs and a 'Dusty' Collapse Model |
 | | 10:30 | | Break |
 | | 10:50 | Mario Flock | Multi-Dust Inner Rim of Magnetized Protoplanetary Disks |
 | | 11:10 | Prakruti Sudarshan | Multi-Fluid Dust and Radiation Hydrodynamics: Where Different Methods Agree/Disagree |

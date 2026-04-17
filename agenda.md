@@ -4,7 +4,7 @@
 | Day | Time | Speaker | Details |
 |-----|------|---------|---------|
 | **Sunday, April 26** | 16:00 | | Check-in at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
-| | 18:00 | | Dinner at <a href="https://www.klosterwirt-chiemsee.de/">Klosterwirt</a>|
+| | 18:00 | | Welcome Session & Dinner at <a href="https://www.klosterwirt-chiemsee.de/">Klosterwirt</a>|
 | **Monday, April 27** | 08:00 | | Breakfast at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth</a> |
 | | 09:30 | Haichen Zhao | Planet Formation Initiated by Infall-Induced Pressure Bumps |
 | | 09:50 | *León-Alexander Hühn* | Late Infall and Transitional Disks |

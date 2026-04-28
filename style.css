@@ -483,6 +483,11 @@ body {
   width: auto;
 }
 
+/* Slides/Material column matches Speaker column width */
+.col-slides {
+  width: 200px;
+}
+
 .tab-panel table tr:hover {
   background-color: var(--bg-light);
 }

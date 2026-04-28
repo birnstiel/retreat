@@ -65,6 +65,7 @@ async function loadAgenda() {
                 <th class="col-time">Time</th>
                 ${isSunday ? '' : '<th class="col-speaker">Speaker</th>'}
                 <th class="col-details">Details</th>
+                ${isSunday ? '' : '<th class="col-slides">Slides/Material</th>'}
               </tr>
             </thead>
             <tbody>
@@ -151,6 +152,7 @@ function parseAgendaByDays(markdown) {
                 <td class="col-time">${parseInlineMarkdown(parts[2])}</td>
                 <td class="col-speaker">${parseInlineMarkdown(parts[3] || '')}</td>
                 <td class="col-details">${parseInlineMarkdown(parts[4] || '')}</td>
+                <td class="col-slides">${parseInlineMarkdown(parts[5] || '')}</td>
               </tr>
             `);
           }
@@ -174,6 +176,7 @@ function parseAgendaByDays(markdown) {
               <td class="col-time">${parseInlineMarkdown(parts[2] || '')}</td>
               <td class="col-speaker">${parseInlineMarkdown(parts[3] || '')}</td>
               <td class="col-details">${parseInlineMarkdown(parts[4] || '')}</td>
+              <td class="col-slides">${parseInlineMarkdown(parts[5] || '')}</td>
             </tr>
           `);
         }

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial — Group Retreat 2026</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+      .tutorial-content {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.7;
+      }
+      .tutorial-content h1 { margin-bottom: 6px; }
+      .tutorial-content h2 { margin-top: 32px; }
+      .tutorial-content code {
+        background: var(--bg-light, #f3f4f6);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+      .tutorial-content pre {
+        font-size: 1rem;
+      }
+      .tutorial-content pre code {
+        display: block;
+        padding: 12px;
+        overflow-x: auto;
+      }
+      .tutorial-content ol, .tutorial-content ul {
+        padding-left: 2em;
+        margin: 0.5em 0;
+      }
+      .tutorial-content ol li, .tutorial-content ul li {
+        margin-bottom: 0.75em;
+      }
+      .back-link {
+        display: inline-block;
+        margin: 24px 0 0 0;
+        color: var(--primary, #4f46e5);
+        text-decoration: none;
+        font-size: 0.95em;
+      }
+      .back-link:hover { text-decoration: underline; }
+      .error-box {
+        background: #fee2e2;
+        border-left: 4px solid #dc2626;
+        padding: 16px 20px;
+        border-radius: 8px;
+        color: #991b1b;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">Group Retreat 2026</h1>
+        <p class="tagline">Lakeside Perspectives</p>
+      </div>
+    </header>
+
+    <div class="tutorial-content">
+      <a class="back-link" href="index.html">← Back to schedule</a>
+      <div id="content">Loading…</div>
+    </div>
+
+    <script>
+      async function loadTutorial() {
+        const params = new URLSearchParams(window.location.search);
+        const file = params.get('file');
+
+        if (!file) {
+          document.getElementById('content').innerHTML =
+            '<div class="error-box"><strong>No tutorial specified.</strong><br>Use <code>?file=filename.md</code> in the URL.</div>';
+          return;
+        }
+
+        // Restrict to .md files in the same directory (no path traversal)
+        const safeName = file.replace(/[^a-zA-Z0-9_\-\.]/g, '');
+        if (!safeName.endsWith('.md') || safeName !== file) {
+          document.getElementById('content').innerHTML =
+            '<div class="error-box"><strong>Invalid file parameter.</strong></div>';
+          return;
+        }
+
+        try {
+          const response = await fetch(safeName);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const markdown = await response.text();
+          // Strip Jekyll front matter if present
+          const stripped = markdown.replace(/^---[\s\S]*?---\n/, '');
+          document.getElementById('content').innerHTML = marked.parse(stripped);
+          // Update page title from first h1
+          const h1 = document.querySelector('#content h1');
+          if (h1) document.title = h1.textContent + ' — Group Retreat 2026';
+        } catch (err) {
+          document.getElementById('content').innerHTML =
+            `<div class="error-box"><strong>Could not load tutorial.</strong><br>${err.message}</div>`;
+        }
+      }
+
+      loadTutorial();
+    </script>
+  </body>
+</html>

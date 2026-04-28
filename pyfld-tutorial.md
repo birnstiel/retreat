@@ -1,7 +1,3 @@
----
-layout: default
-title: pyFLD Tutorial
----
 
 # pyFLD Tutorial
 

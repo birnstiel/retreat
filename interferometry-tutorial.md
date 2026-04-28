@@ -1,7 +1,3 @@
----
-layout: default
-title: Introduction to Interferometric Imaging
----
 
 # Introduction to Interferometric Imaging
 

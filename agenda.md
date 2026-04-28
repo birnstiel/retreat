@@ -44,7 +44,7 @@
 | | 11:30 | Paola Pinilla | The Effect of Mild-External Photoevaporation on the Evolution of Protoplanetary Disks | <a href="https://cloud.physik.lmu.de/index.php/s/T2yfZ7zBPd663Yj">Slides</a> |
 | | 11:50 | | Lunch at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
 | | 14:00 | *Giovanni Picogna* | **Lecture:** Disk Winds Overview | <a href="https://cloud.physik.lmu.de/index.php/s/T2yfZ7zBPd663Yj">Slides</a> |
-| | 15:00 | *Sebastian Stammler*, *Thomas Pfeil* & <br> *Nicolas Kaufmann*  | **Hands-on session:** DustPy, DustPyLib, TriPoD & TriPodPy | <a href="https://github.com/stammler/spp1992_summerschool23"> DustPy tutorial<a>; <a href="https://github.com/NIcolas-Kaufmann/tripodpy_tutorial">TriPodPy tutorial<a> |
+| | 15:00 | *Sebastian Stammler*, *Thomas Pfeil* & <br> *Nicolas Kaufmann*  | **Hands-on session:** DustPy, DustPyLib, TriPoD & TriPodPy | <a href="https://github.com/stammler/spp1992_summerschool23"> DustPy tutorial<a>; <a href="https://github.com/ThomasPfeil/TriPoDAthena_Introduction/">TriPoD tutorial<a>; <a href="https://github.com/NIcolas-Kaufmann/tripodpy_tutorial">TriPodPy tutorial<a> |
 | | 16:30 | Tommy Lau | **Hands-on session:** Planet Formation Modelling with TriPoDPy + GENGA |
 | | 16:50 | | Free slot for discussions |
 | | 18:00 | | Dinner at <a href="https://www.frauenwoerth.de/">Abtei Frauenwörth<a> |
